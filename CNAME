@@ -1,1 +1,6 @@
-buckinbuds.io
+https://buckinbuds.io
+$ dig WWW.BUCKINBUDS.COM +nostats +nocomments +nocmd
+  > ;WWW.BUCKINBUDS.COM.                     IN      A
+  > WWW.BUCKINBUDS.COM.              3592    IN      CNAME   buckinbuds.github.io.
+  > buckinbuds.github.io.      43192   IN      CNAME    GITHUB-PAGES-SERVER .
+  >  GITHUB-PAGES-SERVER .         22      IN      A       192.0.2.1
